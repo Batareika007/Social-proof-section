@@ -1,0 +1,97 @@
+/* -------- global ---------- */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Spartan',
+        sans-serif;
+}
+
+h1,
+.star_section {
+    color: hsl(300, 43%, 22%);
+    font-weight: 600;
+}
+
+p {
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+}
+
+.comments {
+    background-color: hsl(300, 43%, 22%);
+}
+
+.comments_section {
+    color: hsl(0, 0%, 100%);
+}
+
+
+/* --------- desktop version ------------- */
+
+@media(min-width: 1440px) {
+    /* TODO */
+}
+
+/* ---- moblie version ---- */
+
+@media (max-width: 375px) {
+    main {
+        text-align: center;
+        max-width: 375px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    header {
+        margin-top: 80px;
+        margin-bottom: 47px;
+    }
+
+    p {
+        line-height: 166%;
+        letter-spacing: -0.03em;
+    }
+
+    .star_section {
+        margin-bottom: 49px;
+    }
+
+    .star_section>div {
+        height: 78px;
+        background-color: hsl(300, 24%, 96%);
+        margin-bottom: 16px;
+        border-radius: 9px;
+        padding-top: 12px;
+    }
+
+    .comments {
+        padding: 30px 30px 36px 32px;
+        height: 248px;
+        background-color: hsl(300, 43%, 22%);
+        margin-bottom: 16px;
+        border-radius: 9px;
+    }
+
+    .comment_header {
+        margin-bottom: 36px;
+    }
+
+    .comments>p {
+        text-align: left;
+        color: hsl(0, 0%, 100%);
+        font-size: 14px;
+        line-height: 159%;
+        letter-spacing: -0.05em;
+        font-weight: 400;
+    }
+}
