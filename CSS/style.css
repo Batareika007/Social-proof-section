@@ -76,8 +76,7 @@ p {
 
     main {
         height: 800px;
-        background-image: url("/images/bg-pattern-top-desktop.svg"),
-            url("/images/bg-pattern-bottom-desktop.svg");
+        background-image: url("/images/bg-pattern-top-desktop.svg"), url("/images/bg-pattern-bottom-desktop.svg");
         background-repeat: no-repeat no-repeat;
         background-position: left top,
             bottom right;
