@@ -196,13 +196,16 @@ p {
         background-image: url("../images/bg-pattern-top-mobile.svg"), url("../images/bg-pattern-bottom-mobile.svg");
         background-repeat: no-repeat no-repeat;
         background-position: left top, bottom right;
+        margin-left: 24px;
+        margin-right: 24px;
     }
 
     main {
         text-align: center;
         max-width: 375px;
-        margin-left: 24px;
-        margin-right: 24px;
+        /* margin-left: 24px; */
+        /* margin-right: 24px; */
+        margin: 0 auto;
     }
 
     header {
