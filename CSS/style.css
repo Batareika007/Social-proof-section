@@ -189,7 +189,218 @@ p {
     }
 }
 
+/* ----------- tablet version ----------------- */
+
+@media (max-width: 1439px) and (min-width: 1024px) {
+
+
+    main {
+        min-height: 800px;
+        background-image: url("../images/bg-pattern-top-desktop.svg"),
+            url("../images/bg-pattern-bottom-desktop.svg");
+        background-repeat: no-repeat no-repeat;
+        background-position: left top,
+            bottom right;
+        margin: 0 auto;
+        padding-top: 124px;
+        padding-left: 165px;
+        padding-right: 165px;
+    }
+
+    header {
+        text-align: center;
+        /* height: 250px; */
+    }
+
+    h1 {
+
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 49px;
+        line-height: 100%;
+
+    }
+
+    header>p {
+        margin: 15px auto;
+        text-align: center;
+        max-width: 570px;
+        line-height: 166%;
+        letter-spacing: -0.03em;
+    }
+
+    .star_section {
+        /* border: solid black 1px; */
+        /* margin-top: 20px; */
+        height: 200px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* align-content: flex-end; */
+
+    }
+
+    .star_box {
+        text-align: center;
+        width: 400px;
+        /* min-height: 55px; */
+        padding-top: 7.5px;
+        padding-bottom: 7.5px;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+
+
+    .star_box:first-child {
+        align-self: flex-start;
+    }
+
+    .star_box:last-child {
+        align-self: flex-end;
+    }
+
+
+    .start_icons,
+    .start_text {
+        align-self: center;
+        /* padding-left: 31px; */
+    }
+
+    /* ============ comment sectiopn ================  */
+    .comments_section {
+        align-self: center;
+        margin-top: 30px;
+        min-height: 266px;
+        max-width: 100%;
+        display: flex;
+        /* flex-direction: row-reverse; */
+        flex-wrap: wrap-reverse;
+        justify-content: space-around;
+
+
+    }
+
+    .comments {
+        height: 234px;
+        width: 350px;
+        padding: 42px 32px 45px 30px;
+        align-self: center;
+        margin-bottom: 30px;
+
+    }
+
+
+    .comment_header {
+        margin-bottom: 29px;
+        /* text-align: left; */
+    }
+
+    .comment_image {
+        margin-right: 19px;
+    }
+
+    .comments>p {
+        font-weight: 400;
+        margin: 0;
+        font-size: 14px;
+        line-height: 159%;
+        letter-spacing: -0.06em;
+
+    }
+
+}
+
+/* ----------- tablet small version */
+
+@media (max-width: 1023px) and (min-width: 575px) {
+    body {
+        background-image: url("../images/bg-pattern-top-mobile.svg"), url("../images/bg-pattern-bottom-mobile.svg");
+        background-repeat: no-repeat no-repeat;
+        background-position: left top, bottom right;
+
+    }
+
+    main {
+        text-align: center;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    header {
+        margin-top: 80px;
+        margin-bottom: 47px;
+    }
+
+    h1 {
+        font-size: 3.5em;
+    }
+
+    p {
+        font-size: 1.5em;
+        line-height: 166%;
+        letter-spacing: -0.03em;
+    }
+
+    .star_section {
+        font-size: 1.5em;
+        margin-bottom: 49px;
+    }
+
+    .star_section>div {
+        /* height: 78px; */
+        margin-bottom: 16px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .start_icons {
+        margin-bottom: 14px;
+    }
+
+    .comments {
+        font-size: 1.5em;
+        padding: 30px 60px 36px 62px;
+        /* min-height: 248px; */
+        margin-bottom: 16px;
+
+
+    }
+
+    .comment_header {
+        justify-content: center;
+        /* margin-bottom: 36px; */
+
+
+    }
+
+    .comment_header>div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .comment_image {
+        margin-right: 18px;
+        width: auto;
+    }
+
+    .comment_name {
+        font-weight: 700;
+        margin-bottom: 6px;
+    }
+
+    .comments>p {
+
+        line-height: 159%;
+        letter-spacing: -0.05em;
+        font-weight: 400;
+    }
+}
+
 /* ------------- moblie version ----------------- */
+
 
 @media (max-width: 576px) {
     body {
